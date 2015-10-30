@@ -1,0 +1,403 @@
+/* Google font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #010300;
+	background: url(../img/bodybg.jpg);
+}
+
+p{
+	margin: 0;
+}
+
+
+.rex-main-content{
+	margin: 38px 0;
+}
+
+.rex-right-btn{
+	float: right;
+}
+
+.rex-block{
+	margin: 0 35px;
+}
+
+.card{
+	text-align: center;
+	border-radius: 18px;
+	padding: 50px 0;
+}
+
+
+.rex-button{
+	padding-bottom: 20px;
+}
+
+.rex-content p span{
+	color: #010300;
+}
+
+.rex-content p a{
+	color: #010300;
+}
+
+.rex-content p a:hover{
+	color: #269f0a;
+	transition: 0.2s;
+}
+
+.rex-content p:nth-child(1){
+	margin-bottom: 10px;
+}
+
+.card-content{
+	margin-top: 30px;
+}
+
+.rex-content p i{
+	margin-right: 5px;
+	position: relative;
+	top: 5px;
+	color: #269f0a;
+}
+
+.card-image i{
+	font-size: 139px;
+	line-height: 72px;
+	color: #269f0a;
+}
+
+.card-image p{
+    position: relative;
+    top: -20px;
+    color: #269f0a;
+}
+
+.circle span{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background: #269f0a;
+	border-radius: 100%;
+	margin: 0 10px;
+	position: relative;
+	top: -10px;
+}
+
+/* search style */
+
+
+#icon_prefix{
+	background: #fff;
+	color: #E53935;
+}
+
+#icon_prefix:focus{
+	border-color: #E53935;
+	box-shadow: 0 1px 0 0 #935;
+}
+
+.rex-search-button{
+	text-align: center;
+}
+
+.search-wrapper{
+	position: relative;
+}
+
+.search-wrapper a{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 46px;
+}
+
+.btn i{
+	font-size: 24px;
+    position: relative;
+    top: 5px;
+}
+
+footer .rex-block p{
+	color: #fff;
+	text-align: center;
+}
+
+footer .rex-block p a{
+	color: #e53935;
+}
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+/*============= help work ============*/
+
+
+.navbar { /*background: #4ECDC4;*/ 
+    background: none;
+    border: none;
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #A2DED0;
+}
+
+@media(max-width:1024px){
+    code[class*="language-"], pre[class*="language-"]{
+        white-space: inherit !important;
+    }
+}
+
+@media(max-width:768px) {
+    .navbar {
+        padding: 20px 0;
+/*        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;*/
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .block{
+        position: relative !important;
+        width: 100% !important;
+    }
+    .navbar-nav{
+        margin: 0;
+        background-color: #fff;
+    }
+    pre code span{
+        float: left;
+    }
+    code[class*="language-"], pre[class*="language-"]{
+        white-space: inherit !important;
+    }
+
+}
+
+@media(max-width:320px){
+    .content{
+        display: block !important;
+    }
+    .content-text, pre{
+        width: 100% !important;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+	  padding: 150px 0px;
+	  text-align: center;
+	  background: url('../images/background2.jpg');
+	  background-size: cover;
+	  background-position: center;
+	  color: white;
+}
+
+.intro-section h1 {
+	  color: #4ECDC4;
+}
+
+.intro-section h3 {
+	  color: #A2DED0;
+}
+
+.intro-section hr {
+	  border: 0; 
+	  height: 1px; 
+	  background-image: linear-gradient(to right, rgba(250, 250, 250, 0), rgba(250, 250, 250, 0.75), rgba(250, 250, 250, 0));
+}
+
+.getting-started-section {
+    height: 100%;
+    padding: 0px;
+    text-align: center;
+    background: #FDE3A7;
+}
+
+.getting-started-section hr {
+		border: 0; 
+		height: 1px; 
+		background-image: linear-gradient(to right, rgba(244, 179, 80, 0), rgba(244, 179, 80, 0.75), rgba(244, 179, 80, 0));
+}
+
+.options-section {
+    padding: 50px 0px;;
+    text-align: center;
+    background: #90C695;
+}
+
+.options-section hr {
+		border: 0; 
+		height: 1px; 
+		background-image: linear-gradient(to right, rgba(38, 166, 91, 0), rgba(38, 166, 91, 0.75), rgba(38, 166, 91, 0));
+}
+
+.license-section {
+    padding: 50px 0px;;
+    text-align: center;
+    background: #22313F;
+  	color: white;
+}
+
+.license-section hr {
+		border: 0; 
+		height: 1px; 
+		background-image: linear-gradient(to right, rgba(34, 167, 240, 0), rgba(34, 167, 240, 0.75), rgba(34, 167, 240, 0));
+}
+
+/*===========
+    My work
+==============*/
+
+.container-fluid{
+    padding: 0;
+}
+
+.container-fluid .row{
+    margin-bottom: 0;
+}
+
+.block{
+    position: fixed;
+    width: 16.7%;
+}
+
+.main-content .col-md-10,
+.main-content .col-md-2{
+    padding: 0;
+}
+
+.navbar-brand{
+    margin-left: 14px !important;
+    color: #fff !important;
+}
+
+.navbar-collapse{
+    padding: 0;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+.navbar-header{
+    float: none;
+}
+
+.navbar-nav li{
+    float: none;
+    border-bottom: 1px solid #393939;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff !important; 
+    padding-top: 8px;
+}
+
+/*.getting-started{
+    background: #eaf2f6;
+}*/
+
+.getting-started h1,
+.getting-started-section h1{
+    background: #269f0a;
+    padding: 26px 30px;
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+}
+.getting-started-section h1{
+    border-left: 1px solid #333;
+    text-align: left;
+}
+
+.getting-started h3{
+    background: #fff;
+    padding: 15px 30px;
+    margin: 0;
+    bocontent-textrder-bottom: 1px solid #ccc;
+}
+
+./*getting-started p{
+    height: 200px;
+    padding: 30px;
+}*/
+
+/*pre[class*="language-"]{
+    margin: 0;
+}*/
+
+.clearfix{
+    overflow: hidden;
+}
+
+.content{
+    display: flex;
+}
+
+.content-text{
+    width: 50%;
+    background: #eaf2f6;
+}
+.content-text p{
+    padding: 30px;
+}
+
+pre{
+    width: 50%;
+}
+
+.content .language-markup,
+.content .language-css,
+.content .language-javascript{
+    margin: 0;
+    border: 0;
+}
+
+.getting-started div:nth-child(odd) .content pre{
+    background: #30312B;
+}
+
+.getting-started div:nth-child(even) .content pre{
+    background: #272822;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav{
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+.nav .active{
+    background-color: #269f0a !important;
+}

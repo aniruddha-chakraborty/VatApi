@@ -1,0 +1,273 @@
+/*!
+ * DocStrap
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #393939;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar { /*background: #4ECDC4;*/ 
+    background: none;
+    border: none;
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #A2DED0;
+}
+
+@media(max-width:1024px){
+    code[class*="language-"], pre[class*="language-"]{
+        white-space: inherit !important;
+    }
+}
+
+@media(max-width:768px) {
+    .navbar {
+        padding: 20px 0;
+/*        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;*/
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .block{
+        position: relative !important;
+        width: 100% !important;
+    }
+    .navbar-nav{
+        margin: 0;
+        background-color: #fff;
+    }
+    pre code span{
+        float: left;
+    }
+    code[class*="language-"], pre[class*="language-"]{
+        white-space: inherit !important;
+    }
+
+}
+
+@media(max-width:320px){
+    .content{
+        display: block !important;
+    }
+    .content-text, pre{
+        width: 100% !important;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+	  padding: 150px 0px;
+	  text-align: center;
+	  background: url('../images/background2.jpg');
+	  background-size: cover;
+	  background-position: center;
+	  color: white;
+}
+
+.intro-section h1 {
+	  color: #4ECDC4;
+}
+
+.intro-section h3 {
+	  color: #A2DED0;
+}
+
+.intro-section hr {
+	  border: 0; 
+	  height: 1px; 
+	  background-image: linear-gradient(to right, rgba(250, 250, 250, 0), rgba(250, 250, 250, 0.75), rgba(250, 250, 250, 0));
+}
+
+.getting-started-section {
+    height: 100%;
+    padding: 0px;
+    text-align: center;
+    background: #FDE3A7;
+}
+
+.getting-started-section hr {
+		border: 0; 
+		height: 1px; 
+		background-image: linear-gradient(to right, rgba(244, 179, 80, 0), rgba(244, 179, 80, 0.75), rgba(244, 179, 80, 0));
+}
+
+.options-section {
+    padding: 50px 0px;;
+    text-align: center;
+    background: #90C695;
+}
+
+.options-section hr {
+		border: 0; 
+		height: 1px; 
+		background-image: linear-gradient(to right, rgba(38, 166, 91, 0), rgba(38, 166, 91, 0.75), rgba(38, 166, 91, 0));
+}
+
+.license-section {
+    padding: 50px 0px;;
+    text-align: center;
+    background: #22313F;
+  	color: white;
+}
+
+.license-section hr {
+		border: 0; 
+		height: 1px; 
+		background-image: linear-gradient(to right, rgba(34, 167, 240, 0), rgba(34, 167, 240, 0.75), rgba(34, 167, 240, 0));
+}
+
+/*===========
+    My work
+==============*/
+
+.container-fluid{
+    padding: 0;
+}
+
+.container-fluid .row{
+    margin-bottom: 0;
+}
+
+.block{
+    position: fixed;
+    width: 16.7%;
+}
+
+.main-content .col-md-10,
+.main-content .col-md-2{
+    padding: 0;
+}
+
+.navbar-brand{
+    margin-left: 14px !important;
+    color: #fff !important;
+}
+
+.navbar-collapse{
+    padding: 0;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+.navbar-header{
+    float: none;
+}
+
+.navbar-nav li{
+    float: none;
+    border-bottom: 1px solid #393939;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff !important; 
+    padding-top: 8px;
+}
+
+/*.getting-started{
+    background: #eaf2f6;
+}*/
+
+.getting-started h1,
+.getting-started-section h1{
+    background: #e57373;
+    padding: 26px 30px;
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+}
+.getting-started-section h1{
+    border-left: 1px solid #333;
+    text-align: left;
+}
+
+.getting-started h3{
+    background: #fff;
+    padding: 15px 30px;
+    margin: 0;
+    bocontent-textrder-bottom: 1px solid #ccc;
+}
+
+./*getting-started p{
+    height: 200px;
+    padding: 30px;
+}*/
+
+/*pre[class*="language-"]{
+    margin: 0;
+}*/
+
+.clearfix{
+    overflow: hidden;
+}
+
+.content{
+    display: flex;
+}
+
+.content-text{
+    width: 50%;
+    background: #eaf2f6;
+}
+.content-text p{
+    padding: 30px;
+}
+
+pre{
+    width: 50%;
+}
+
+.content .language-markup,
+.content .language-css,
+.content .language-javascript{
+    margin: 0;
+    border: 0;
+}
+
+.getting-started div:nth-child(odd) .content pre{
+    background: #30312B;
+}
+
+.getting-started div:nth-child(even) .content pre{
+    background: #272822;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav{
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
