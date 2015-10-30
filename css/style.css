@@ -108,7 +108,7 @@ p{
 	position: relative;
 }
 
-.search-wrapper a{
+.search-wrapper button.btn{
 	position: absolute;
 	top: 0;
 	right: 0;
